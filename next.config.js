@@ -13,5 +13,8 @@ module.exports = nextSASS({
         config.resolve.modules.push(path.resolve("./"));
 
         return config;
+    },
+    devIndicators: {
+        autoPrerender: false
     }
 });
