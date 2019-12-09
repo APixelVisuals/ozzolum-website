@@ -1,4 +1,5 @@
 const nextSASS = require("@zeit/next-sass");
+const path = require("path");
 
 module.exports = nextSASS({
     webpack: config => {
@@ -7,6 +8,9 @@ module.exports = nextSASS({
         config.node = {
             fs: "empty"
         };
+
+        //Allow absolute paths
+        config.resolve.modules.push(path.resolve("./"));
 
         return config;
     }
