@@ -1,0 +1,38 @@
+//Fonts
+@font-face {
+    font-family: "Roboto";
+    src: url(/static/fonts/roboto.ttf);
+}
+
+@font-face {
+    font-family: "Roboto Black";
+    src: url(/static/fonts/roboto-black.ttf);
+}
+
+@font-face {
+    font-family: "Gotham Rounded";
+    src: url(/static/fonts/gotham-rounded.otf);
+}
+
+//Main
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    min-height: calc(100vh - 100px);
+    background-color: black;
+    overflow-x: hidden;
+    padding-bottom: 100px;
+}
+
+//Scrollbar
+::-webkit-scrollbar {
+    width: 5px;
+    background-color: #373e40;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: white;
+}
