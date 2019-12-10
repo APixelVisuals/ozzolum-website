@@ -21,8 +21,9 @@
 }
 
 body {
-    min-height: 100vh;
+    min-height: calc(100vh - 65px);
     background-color: black;
+    padding-top: 65px;
     overflow-x: hidden;
 }
 
