@@ -55,7 +55,7 @@
                     position: absolute;
                     width: 0px;
                     height: 1px;
-                    background-color: #ffc533;
+                    background-color: $primary;
                     content: "";
                     margin-top: 25px;
                     transition: 0.5s cubic-bezier(0.23, 1, 0.320, 1);
@@ -84,13 +84,13 @@
                 font-family: "Roboto";
                 font-size: 18px;
                 text-decoration: none;
-                background-image: linear-gradient(#ffd15c, #ffc533);
+                background-image: linear-gradient($secondary, $primary);
                 border-radius: 100px;
                 padding: 8px 30px;
                 transition: 0.25s ease-out;
 
                 &:hover {
-                    box-shadow: 0px 0px 8px 0px #ffc533;
+                    box-shadow: 0px 0px 8px 0px $primary;
                 }
             }
 
@@ -133,14 +133,14 @@
             font-family: "Roboto";
             font-size: 18px;
             text-decoration: none;
-            background-image: linear-gradient(#ffd15c, #ffc533);
+            background-image: linear-gradient($secondary, $primary);
             border-radius: 100px;
             padding: 8px 30px;
             margin: 35px 0px;
             transition: 0.25s ease-out;
 
             &:hover {
-                box-shadow: 0px 0px 8px 0px #ffc533;
+                box-shadow: 0px 0px 8px 0px $primary;
             }
         }
 
@@ -162,7 +162,7 @@
                     position: absolute;
                     width: 0px;
                     height: 1px;
-                    background-color: #ffc533;
+                    background-color: $primary;
                     content: "";
                     margin-top: 25px;
                     transition: 0.5s cubic-bezier(0.23, 1, 0.320, 1);
