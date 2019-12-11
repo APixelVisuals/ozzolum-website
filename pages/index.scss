@@ -66,4 +66,62 @@
         background-color: #151515;
         border-radius: 0 0 50% 50%;
     }
+
+    .how-it-works {
+        width: 100%;
+
+        .title {
+            @include center;
+            display: inline-block;
+            color: white;
+            font-family: "Roboto";
+            font-size: 35px;
+            text-align: center;
+            margin-top: 135px;
+        }
+
+        .steps {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+
+            .step {
+                width: 350px;
+                background-color: #151515;
+                border: 7px #1f1f1f solid;
+                border-radius: 15px;
+                padding: 35px;
+                margin: 35px;
+
+                .name {
+                    color: $primary;
+                    font-family: "Roboto";
+                    font-size: 25px;
+                    text-align: center;
+                }
+
+                .description {
+                    color: white;
+                    font-family: "Roboto";
+                    font-size: 18px;
+                    text-align: center;
+
+                    a {
+                        color: $secondary;
+                    }
+
+                    span {
+                        color: $secondary;
+                    }
+
+                    code {
+                        font-family: "Roboto";
+                        background-color: #ffffff1f;
+                        border-radius: 4px;
+                        padding: 3px 8px;
+                    }
+                }
+            }
+        }
+    }
 }

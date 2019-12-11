@@ -44,6 +44,31 @@ export default class Index extends React.Component {
             </div>
             <div className="intro-end" />
 
+            <div className="how-it-works">
+
+                <h1 className="title">How It Works</h1>
+
+                <div className="steps">
+
+                    <div className="step">
+                        <p className="name">Join the Server</p>
+                        <p className="description">You can play Ozzolum on our server, <a href="/join" target="_blank">The Realm of Ozzolum</a>.</p>
+                    </div>
+
+                    <div className="step">
+                        <p className="name">Start a Game</p>
+                        <p className="description">Start a game by using the <code>o!start</code> command in the <span>#home</span> channel.</p>
+                    </div>
+
+                    <div className="step">
+                        <p className="name">Learn About Gameplay</p>
+                        <p className="description">Learn how to play and find some useful tips and tricks on the <a href="/wiki/getting-started" target="_blank">Getting Started guide</a> on the Wiki.</p>
+                    </div>
+
+                </div>
+
+            </div>
+
         </div>
     )
 
