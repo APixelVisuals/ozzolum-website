@@ -21,7 +21,7 @@ export default class NavBar extends React.Component {
                     <li><a href="/stats">Stats</a></li>
                 </ul>
 
-                <div className="join-button"><a href="/join">Join</a></div>
+                <div className="join-button"><a href="/join" target="_blank">Join</a></div>
 
                 <div className="menu-button"><img src="/static/menu.svg" alt="Menu button" onClick={() => this.setState({ menuOpen: !this.state.menuOpen })} /></div>
 
@@ -29,7 +29,7 @@ export default class NavBar extends React.Component {
 
             <div className={`menu ${this.state.menuOpen && "open"}`}>
 
-                <a href="/join" className="join-button">Join</a>
+                <a href="/join" className="join-button" target="_blank">Join</a>
 
                 <ul className="items">
                     <li><a href="/wiki">Wiki</a></li>
