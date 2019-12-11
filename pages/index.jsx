@@ -50,13 +50,18 @@ export default class Index extends React.Component {
     componentDidMount = () => {
 
         //Animate description list
-        setInterval(async () => {
+        this.descriptionListAnimationInterval = setInterval(this.descriptionListAnimation, 3000);
+    }
 
-            if ((this.state.descriptionListOffset / 400) === 4) await this.setState({ descriptionListOffset: 0, descriptionListReset: true });
+    componentWillUnmount = () => clearInterval(this.descriptionListAnimationInterval);
 
-            await (() => new Promise(resolve => setTimeout(resolve, 100)))();
+    descriptionListAnimation = async () => {
 
-            this.setState({ descriptionListOffset: this.state.descriptionListOffset + 400, descriptionListReset: false });
+        if ((this.state.descriptionListOffset / 400) === 4) await this.setState({ descriptionListOffset: 0, descriptionListReset: true });
+
+        await (() => new Promise(resolve => setTimeout(resolve, 100)))();
+
+        this.setState({ descriptionListOffset: this.state.descriptionListOffset + 400, descriptionListReset: false });
         }, 3000);
     }
 };
