@@ -62,6 +62,5 @@ export default class Index extends React.Component {
         await (() => new Promise(resolve => setTimeout(resolve, 100)))();
 
         this.setState({ descriptionListOffset: this.state.descriptionListOffset + 400, descriptionListReset: false });
-        }, 3000);
     }
 };
