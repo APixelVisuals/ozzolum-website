@@ -119,6 +119,17 @@ export default class Index extends React.Component {
 
                     </div>
 
+                    <div className="feature">
+
+                        <img className="icon" src="/static/menu.svg" alt="Feature name icon" />
+
+                        <div className="content">
+                            <p className="name">Image-Based</p>
+                            <p className="description">Although the game is interacted with through text on Discord, images are generated for a lot of commands to help you engage better so you have something interesting to look at as opposed to just text.</p>
+                        </div>
+
+                    </div>
+
                 </div>
 
             </div>
