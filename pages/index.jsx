@@ -111,8 +111,8 @@ export default class Index extends React.Component {
                     <div className="feature right">
 
                         <div className="content">
-                            <p className="name">NPCs &amp; Quests</p>
-                            <p className="description">There are lots of NPCs to interact with and plenty of quests to guide you through the game. There's a main questline, as well as tons of side quests, that involve all kinds of things ranging from gathering items to rescuing NPCs.</p>
+                            <p className="name">Quests</p>
+                            <p className="description">Quests include a main questline, tons of side quests, as well as seasonal quests, all of which involve all kinds of things ranging from gathering items, to fighting enemies, to rescuing NPCs.</p>
                         </div>
 
                         <img className="icon" src="/static/menu.svg" alt="Feature name icon" />
