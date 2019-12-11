@@ -84,7 +84,7 @@
                 font-family: "Roboto";
                 font-size: 18px;
                 text-decoration: none;
-                background-image: linear-gradient($secondary, $primary);
+                background-image: linear-gradient($primary-light, $primary);
                 border-radius: 100px;
                 padding: 8px 30px;
                 transition: 0.25s ease-out;
@@ -133,7 +133,7 @@
             font-family: "Roboto";
             font-size: 18px;
             text-decoration: none;
-            background-image: linear-gradient($secondary, $primary);
+            background-image: linear-gradient($primary-light, $primary);
             border-radius: 100px;
             padding: 8px 30px;
             margin: 35px 0px;
