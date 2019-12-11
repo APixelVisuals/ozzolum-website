@@ -69,6 +69,60 @@ export default class Index extends React.Component {
 
             </div>
 
+            <div className="features">
+
+                <h1 className="title">Features</h1>
+
+                <div className="features-list">
+
+                    <div className="feature">
+
+                        <img className="icon" src="/static/menu.svg" alt="Feature name icon" />
+
+                        <div className="content">
+                            <p className="name">Variety</p>
+                            <p className="description">Ozzolum has tons of different items to collect and locations to explore. While each location has its own set of resources, different times of the day and seasons of the year can change things up as you play to keep things fresh.</p>
+                        </div>
+
+                    </div>
+
+                    <div className="feature right">
+
+                        <div className="content">
+                            <p className="name">Exploration</p>
+                            <p className="description">Exploration is a very interactive experience that has a heavy amount of random generation. When you start exploring a location, you can gather resources, fight enemies, find dungeons, and unlock achievements.</p>
+                        </div>
+
+                        <img className="icon" src="/static/menu.svg" alt="Feature name icon" />
+
+                    </div>
+
+                    <div className="feature">
+
+                        <img className="icon" src="/static/menu.svg" alt="Feature name icon" />
+
+                        <div className="content">
+                            <p className="name">Fighting</p>
+                            <p className="description">The fighting system is turn-based, but has a wide range of moves for both the player and the enemy. Attacks range from melee, to range, to magic, and include swords, bows, wands, and even spells.</p>
+                        </div>
+
+                    </div>
+
+                    <div className="feature right">
+
+                        <div className="content">
+                            <p className="name">NPCs &amp; Quests</p>
+                            <p className="description">There are lots of NPCs to interact with and plenty of quests to guide you through the game. There's a main questline, as well as tons of side quests, that involve all kinds of things ranging from gathering items to rescuing NPCs.</p>
+                        </div>
+
+                        <img className="icon" src="/static/menu.svg" alt="Feature name icon" />
+
+                    </div>
+
+                </div>
+
+            </div>
+
         </div>
     )
 

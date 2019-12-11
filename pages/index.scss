@@ -126,4 +126,56 @@
             }
         }
     }
+
+    .features {
+        width: 100%;
+
+        .title {
+            @include center;
+            display: inline-block;
+            color: white;
+            font-family: "Roboto";
+            font-size: 35px;
+            text-align: center;
+            margin-top: 135px;
+        }
+
+        .features-list {
+            padding: 0px 10%;
+
+            .feature {
+                display: flex;
+                margin: 135px 0px;
+
+                .icon {
+                    width: 65px;
+                    margin: 0px 35px;
+
+                    @media screen and (max-width: 675px) {
+                        display: none;
+                    }
+                }
+
+                .content {
+
+                    .name {
+                        color: $primary;
+                        font-family: "Roboto";
+                        font-size: 25px;
+                    }
+
+                    .description {
+                        color: white;
+                        font-family: "Roboto";
+                        font-size: 18px;
+                        margin-top: 15px;
+                    }
+                }
+
+                &.right {
+                    text-align: right;
+                }
+            }
+        }
+    }
 }
