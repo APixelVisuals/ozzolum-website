@@ -77,7 +77,7 @@ export default class Index extends React.Component {
 
                     <div className="feature">
 
-                        <img className="icon" src="/static/menu.svg" alt="Feature name icon" />
+                        <img className="icon" src="/static/variety.svg" alt="Variety icon" />
 
                         <div className="content">
                             <p className="name">Variety</p>
@@ -93,13 +93,13 @@ export default class Index extends React.Component {
                             <p className="description">Exploration is a very interactive experience that has a heavy amount of random generation. When you start exploring a location, you can gather resources, fight enemies, find dungeons, and unlock achievements.</p>
                         </div>
 
-                        <img className="icon" src="/static/menu.svg" alt="Feature name icon" />
+                        <img className="icon" src="/static/world.svg" alt="World icon" />
 
                     </div>
 
                     <div className="feature">
 
-                        <img className="icon" src="/static/menu.svg" alt="Feature name icon" />
+                        <img className="icon" src="/static/sword.svg" alt="Sword icon" />
 
                         <div className="content">
                             <p className="name">Fighting</p>
@@ -115,13 +115,13 @@ export default class Index extends React.Component {
                             <p className="description">Quests include a main questline, tons of side quests, as well as seasonal quests, all of which involve all kinds of things ranging from gathering items, to fighting enemies, to rescuing NPCs.</p>
                         </div>
 
-                        <img className="icon" src="/static/menu.svg" alt="Feature name icon" />
+                        <img className="icon" src="/static/exclamationMark.svg" alt="Exclamation mark icon" />
 
                     </div>
 
                     <div className="feature">
 
-                        <img className="icon" src="/static/menu.svg" alt="Feature name icon" />
+                        <img className="icon" src="/static/picture.svg" alt="Picture icon" />
 
                         <div className="content">
                             <p className="name">Image-Based</p>
