@@ -42,7 +42,9 @@ export default class Index extends React.Component {
                 </div>
 
             </div>
-            <div className="intro-end" />
+            <div className="intro-end">
+                <a href="/join" className="join" target="_blank">Join</a>
+            </div>
 
             <div className="how-it-works">
 
@@ -133,6 +135,8 @@ export default class Index extends React.Component {
                 </div>
 
             </div>
+
+            <a href="/join" className="join bottom" target="_blank">Join</a>
 
         </div>
     )
