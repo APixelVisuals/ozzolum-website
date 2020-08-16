@@ -1,0 +1,14 @@
+version: "3"
+
+services:
+  ozzolum-website:
+    container_name: ozzolum-website
+    image: node:12
+    build: .
+    restart: always
+    ports:
+      - "3002:3002"
+    volumes:
+      - /root/ozzolum-website/.env:/ozzolum-website/.env
+      - /root/ozzolum-website/public.pem:/ozzolum-website/public.pem
+      - /root/ozzolum-website/private.key:/ozzolum-website/private.key
