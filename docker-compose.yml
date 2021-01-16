@@ -9,6 +9,6 @@ services:
     ports:
       - "3002:3002"
     volumes:
-      - /root/ozzolum-website/.env:/ozzolum-website/.env
-      - /root/ozzolum-website/public.pem:/ozzolum-website/public.pem
-      - /root/ozzolum-website/private.key:/ozzolum-website/private.key
+      - /var/ozzolum-website/.env:/ozzolum-website/.env
+      - /var/ozzolum-website/public.pem:/ozzolum-website/public.pem
+      - /var/ozzolum-website/private.key:/ozzolum-website/private.key
